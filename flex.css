@@ -1,0 +1,28 @@
+div{
+    width:100px;
+    height:100px;
+    border:1px solid yellow;
+}
+#outer{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: end;
+    height:500px;
+    width:700px;
+    border:2px solid black;
+}
+#one{
+   background-color: blue;
+}
+#two{
+    background-color: blueviolet;
+}
+#three{
+    background-color: darkgreen;
+}
+@media(width:100px)
+{
+
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>
+    Dom</h1>
+    <p id="insert".animal>
+    </p>  
+    <p class="one">
+     p1
+    </p>
+    <p class="one">
+     p2
+    </p>
+    <p class="one">p3</p>
+    </p>
+    <p class="one">p4</p>
+    </p>
+    <button onclick="myfunc()">show animal</button>
+</body>
+<script>
+const animal=["tiger","deer","lion"];
+document.getElementById("insert").innerText = animal;
+function myfunc(){
+const animals=["tiger","deer","lion","dog"];
+for(let i=0;i<animals.length;i++){
+
+for(let i in animals){
+  document.getElementsByClassName("one")[i].innerHTML=animals[i];
+}
+}
+document.queryselector(".one").innerText = animals;
+}
+</script>
+</html>
